@@ -6,6 +6,9 @@
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>webapp-2.5 Maven Webapp</name>
+  <prerequisites>
+    <maven>3.0.5</maven>
+  </prerequisites>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <jetty-version>7.6.14.v20131031</jetty-version>
