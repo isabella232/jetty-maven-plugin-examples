@@ -20,7 +20,7 @@ public class ErrorServlet extends HttpServlet
         {
             out = resp.getWriter();
             out.printf("WebApp Issued Error%n");
-            out.printf("Error: %s%n",req.getAttribute("jvax.servlet.error.servlet_name"));
+            out.printf("Error: %s%n",req.getAttribute("javax.servlet.error.servlet_name"));
             Throwable th = (Throwable)req.getAttribute("javax.servlet.error.exception");
             if (th != null)
             {
